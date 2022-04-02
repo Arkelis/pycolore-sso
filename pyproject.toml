@@ -5,8 +5,8 @@ description = ""
 authors = ["Guillaume Fayard <guillaume.fayard@pycolore.fr>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-hyccup = "^1.0.0-alpha.3"
+python = ">=3.9,<=3.10"
+hyccup = "^1.0.0-alpha.4"
 starlette = "^0.16.0"
 python-multipart = "^0.0.5"
 uvicorn = "^0.15.0"
