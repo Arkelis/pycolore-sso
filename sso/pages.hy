@@ -1,6 +1,6 @@
 (import 
-  [hyccup.page [html5 include-css include-js]]
-  [hyccup.form [form-to label text-field password-field submit-button]])
+  hyccup.page [html5 include-css include-js]
+  hyccup.form [form-to label text-field password-field submit-button])
 
 (defn html-head [title css-urls js-urls #* others]
   ['head

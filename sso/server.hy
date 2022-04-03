@@ -1,9 +1,9 @@
 (import 
-  [starlette.applications [Starlette]]
-  [starlette.routing [Route Mount]]
-  [starlette.responses [HTMLResponse]]
-  [starlette.staticfiles [StaticFiles]]
-  [sso.pages [signin]])
+  starlette.applications [Starlette]
+  starlette.routing [Route Mount]
+  starlette.responses [HTMLResponse]
+  starlette.staticfiles [StaticFiles]
+  sso.pages [signin])
 
 
 (defn respond [request]          
